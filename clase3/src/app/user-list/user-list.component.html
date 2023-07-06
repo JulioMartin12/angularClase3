@@ -1,0 +1,8 @@
+<h3>LISTA DE USUARIOS</h3>
+<ul>
+    <li *ngFor="let user of userService.users" >
+         Name: {{user.name}}
+     </li>
+</ul>
+
+<button (click)="addJuan()">Agregar Juan</button>
