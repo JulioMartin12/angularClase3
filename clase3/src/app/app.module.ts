@@ -8,7 +8,8 @@ import { Component2Component } from './component2/component2.component';
 import { Component3Component } from './component3/component3.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserDetailListComponent } from './user-detail-list/user-detail-list.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { TestObservableComponent } from './test-observable/test-observable.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {HttpClientModule} from '@angular/common/http'
     Component2Component,
     Component3Component,
     UserListComponent,
-    UserDetailListComponent
+    UserDetailListComponent,
+    TestObservableComponent
   ],
   imports: [
     BrowserModule,
